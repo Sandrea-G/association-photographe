@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.background{
+    background-image: url(../Img/contact.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    color: white;
+    height: 800px; 
+    text-align: center;
+}
+/*FORM*/
+
+address{
+    padding-top: 100px;
+    color: #d9bd9c;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+.form {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form a {
+    text-decoration: none;
+}
+.form a:hover{
+    color: #1d3940;
+}
+
+.ref {
+    color: #d9bd9c;   
+}
+
+.form h2{ 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.btn{
+    padding: 20px;
+}
+
+.btn-custum{
+    text-transform: uppercase;
+    background-color: #f2f2f0;
+    
+}
+
+@media (max-width:992px){
+    .background{
+        height: auto;
+    }
+    address{
+        padding-top: 0px;
+    }
+
+    h3{
+        padding-top: 20px;
+    }
+}
